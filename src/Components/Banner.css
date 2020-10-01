@@ -1,0 +1,42 @@
+.banner {
+    background: url("../test.jpg");
+    background-size:cover;
+    background-position: top;
+    height: 25em;
+
+}
+
+.banner_info {
+    background-color: black;
+    color: white;
+    padding-top: 10em; /*10em;*/
+    padding-left:5em; /*5em;*/
+    padding-right: 5em; /*5em;*/
+    padding-bottom: 3em; /*2em;*/
+    width: 18.1em; /*18.1em;*/
+}
+
+.banner_search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner_info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top:2em;
+    font-weight:600;
+}
+
+.banner_info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
