@@ -11,8 +11,9 @@ header {
 
 .header_icon {
     object-fit: contain;
-    width:7em;
+    width:6em;
     height:auto;
+    margin-left:0.5em;
 }
 
 .header_center {
@@ -37,7 +38,8 @@ header {
     align-items:center;
     justify-content: space-between;
     width: 15vw;
-    margin-right:2em;
+    margin-right:2.5em;
+
 }
 
 .header_right p {
